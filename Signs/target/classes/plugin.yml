@@ -1,0 +1,47 @@
+author: emojobo
+database: false
+description: futzing with signs. Gives player control to choose font color, format,
+  and style on sign.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.emojobo.plugins.signs.Signs
+name: Signs
+startup: postworld
+version: '1.0'
+
+permissions:
+    signcolors.*:
+        children:
+            signcolors.color.*: true
+            signcolors.style.*: true
+
+    signcolors.color.*:
+        children:
+            signcolors.color.0: true
+            signcolors.color.1: true
+            signcolors.color.2: true
+            signcolors.color.3: true
+            signcolors.color.4: true
+            signcolors.color.5: true
+            signcolors.color.6: true
+            signcolors.color.7: true
+            signcolors.color.8: true
+            signcolors.color.9: true
+            signcolors.color.a: true
+            signcolors.color.b: true
+            signcolors.color.c: true
+            signcolors.color.d: true
+            signcolors.color.e: true
+            signcolors.color.f: true
+
+    signcolors.style.*:
+        children:
+            signcolors.style.k: true
+            signcolors.style.l: true
+            signcolors.style.m: true
+            signcolors.style.n: true
+            signcolors.style.o: true
+
+    signcolors.style.r:
+         default: true
+
+
